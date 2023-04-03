@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "split-kb.kicad_pro",
+    "filename": "left-pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -326,6 +326,10 @@
     [
       "a4732212-c1c4-42d8-b72f-365c4e9064e4",
       ""
+    ],
+    [
+      "15a43e58-e677-40dd-9ef7-2a10b1dcd219",
+      "switch-matrix"
     ]
   ],
   "text_variables": {}
