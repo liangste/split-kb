@@ -1,5 +1,48 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7b9ddcb2-2f15-4fb3-b313-e71bd76b6804)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 158.75 55.88) (size 66.04 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e917f1d1-4265-465c-ad31-3b1a6bf45a08)
+    (property "Sheetname" "right_pcb" (at 158.75 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "right_pcb.kicad_sch" (at 158.75 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "split-kb"
+        (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 72.39 55.88) (size 82.55 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ff14d70b-26f1-4b29-bf90-0efb8f7a2fda)
+    (property "Sheetname" "left_pcb" (at 72.39 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "left_pcb.kicad_sch" (at 72.39 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "split-kb"
+        (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
