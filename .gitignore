@@ -1,5 +1,6 @@
 *.kicad_prl
 *-backups
+*.zip
 fp-lib-table
 fp-info-cache
 sym-lib-table
