@@ -214,9 +214,6 @@
   (junction (at 93.98 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 33f6e0e7-29ea-4897-b82a-8127d6f8a289)
   )
-  (junction (at 125.73 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 482fadfd-1972-4ebf-af76-8b676e1e59f3)
-  )
   (junction (at 153.67 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 48b4e93a-3fca-4386-ac50-d4a44c1261ed)
   )
@@ -397,9 +394,6 @@
   (junction (at 195.58 87.63) (diameter 0) (color 0 0 0 0)
     (uuid d467a8ff-a860-46e8-8def-87b70cea7885)
   )
-  (junction (at 135.89 68.58) (diameter 0) (color 0 0 0 0)
-    (uuid d4ad1763-4e76-40e0-ac87-6c35d6945065)
-  )
   (junction (at 107.95 106.68) (diameter 0) (color 0 0 0 0)
     (uuid d8327a3c-0200-4599-b3a9-d0367ed63444)
   )
@@ -444,7 +438,7 @@
     (stroke (width 0) (type default))
     (uuid 0855cfeb-6809-4b18-b0ba-ecac2d121ee9)
   )
-  (wire (pts (xy 135.89 68.58) (xy 135.89 81.28))
+  (wire (pts (xy 135.89 60.96) (xy 135.89 81.28))
     (stroke (width 0) (type default))
     (uuid 08d016bf-c2f8-43c0-9c7b-21531683b712)
   )
@@ -700,7 +694,7 @@
     (stroke (width 0) (type default))
     (uuid 57d8c104-b77e-44ab-9267-04a9cb9dcee4)
   )
-  (wire (pts (xy 125.73 74.93) (xy 139.7 74.93))
+  (wire (pts (xy 111.76 74.93) (xy 139.7 74.93))
     (stroke (width 0) (type default))
     (uuid 580835fa-a90b-4163-953c-704305e7ebba)
   )
@@ -792,10 +786,6 @@
     (stroke (width 0) (type default))
     (uuid 73276300-9419-42ea-8704-9a8d64e70599)
   )
-  (wire (pts (xy 135.89 60.96) (xy 135.89 68.58))
-    (stroke (width 0) (type default))
-    (uuid 74b457a8-8fef-4026-a88f-b194bfe8525b)
-  )
   (wire (pts (xy 125.73 87.63) (xy 139.7 87.63))
     (stroke (width 0) (type default))
     (uuid 74c28075-1295-4867-a051-8f492f7d9e5e)
@@ -859,10 +849,6 @@
   (wire (pts (xy 163.83 119.38) (xy 163.83 132.08))
     (stroke (width 0) (type default))
     (uuid 90808213-d63d-46a6-818e-e00fee1b91e7)
-  )
-  (wire (pts (xy 125.73 74.93) (xy 125.73 73.66))
-    (stroke (width 0) (type default))
-    (uuid 913457ca-6458-4334-ac6c-da8073535595)
   )
   (wire (pts (xy 205.74 118.11) (xy 205.74 119.38))
     (stroke (width 0) (type default))
@@ -931,10 +917,6 @@
   (wire (pts (xy 139.7 87.63) (xy 139.7 86.36))
     (stroke (width 0) (type default))
     (uuid aa82a697-e786-479c-a313-110293f3e1db)
-  )
-  (wire (pts (xy 111.76 74.93) (xy 125.73 74.93))
-    (stroke (width 0) (type default))
-    (uuid abedbe34-a547-4a98-8d8b-789587ee71d6)
   )
   (wire (pts (xy 219.71 62.23) (xy 219.71 68.58))
     (stroke (width 0) (type default))
@@ -1305,7 +1287,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 007eb6ad-af0a-4121-87a6-9066a64535f0)
-    (property "Reference" "MX45" (at 187.96 128.27 0)
+    (property "Reference" "MX44" (at 187.96 128.27 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 188.8432 129.54 0)
@@ -1322,7 +1304,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX45") (unit 1)
+          (reference "MX44") (unit 1)
         )
       )
     )
@@ -1357,7 +1339,7 @@
   (symbol (lib_id "Device:D_Small") (at 142.24 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 019a6591-b765-4269-a420-fad4e7fcd8fb)
-    (property "Reference" "D27" (at 139.7 133.35 0)
+    (property "Reference" "D29" (at 139.7 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 139.7 134.62 0)
@@ -1380,7 +1362,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D27") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -1389,7 +1371,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 146.05 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02201438-d4ab-4871-ae82-e6c20d0cc0fd)
-    (property "Reference" "MX24" (at 146.05 90.17 0)
+    (property "Reference" "MX23" (at 146.05 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 146.9332 91.44 0)
@@ -1406,7 +1388,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX24") (unit 1)
+          (reference "MX23") (unit 1)
         )
       )
     )
@@ -1415,7 +1397,7 @@
   (symbol (lib_id "Device:D_Small") (at 128.27 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 033d13c4-7944-4361-b0c7-69977dda8ece)
-    (property "Reference" "D21" (at 125.73 107.95 0)
+    (property "Reference" "D23" (at 125.73 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 125.73 109.22 0)
@@ -1438,7 +1420,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D21") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -1473,13 +1455,13 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 146.05 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0582967c-f3b5-49dc-8441-c97dae6ea6c8)
-    (property "Reference" "MX26" (at 146.05 115.57 0)
+    (property "Reference" "MX25" (at 146.05 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 146.9332 116.84 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" (at 130.175 121.285 0)
+    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB" (at 130.175 121.285 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 130.175 121.285 0)
@@ -1490,7 +1472,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX26") (unit 1)
+          (reference "MX25") (unit 1)
         )
       )
     )
@@ -1525,7 +1507,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.18 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bad6819-a8d3-4e4e-9240-ecbeabfe6cb8)
-    (property "Reference" "D37" (at 167.64 107.95 0)
+    (property "Reference" "D39" (at 167.64 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 167.64 109.22 0)
@@ -1548,7 +1530,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D37") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -1557,7 +1539,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.18 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0da465c0-905d-4550-9156-9805a73b1b92)
-    (property "Reference" "D39" (at 167.64 133.35 0)
+    (property "Reference" "D41" (at 167.64 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 167.64 134.62 0)
@@ -1580,7 +1562,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D39") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -1589,7 +1571,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e4b3df2-4a67-46b1-99a1-95abc24b3d35)
-    (property "Reference" "MX43" (at 187.96 102.87 0)
+    (property "Reference" "MX42" (at 187.96 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 188.8432 104.14 0)
@@ -1606,7 +1588,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX43") (unit 1)
+          (reference "MX42") (unit 1)
         )
       )
     )
@@ -1615,7 +1597,7 @@
   (symbol (lib_id "Device:D_Small") (at 114.3 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 123177e6-4914-468e-96f8-d150eff39887)
-    (property "Reference" "D16" (at 111.76 120.65 0)
+    (property "Reference" "D19" (at 111.76 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 111.76 121.92 0)
@@ -1638,7 +1620,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D16") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -1673,7 +1655,7 @@
   (symbol (lib_id "Device:D_Small") (at 212.09 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1309f38b-e330-41fa-ae6f-ccb75cab1939)
-    (property "Reference" "D53" (at 209.55 82.55 0)
+    (property "Reference" "D55" (at 209.55 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 209.55 83.82 0)
@@ -1696,7 +1678,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D53") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
@@ -1705,7 +1687,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17295fe3-b525-4246-b8c8-75a5eeb6621e)
-    (property "Reference" "MX20" (at 132.08 90.17 0)
+    (property "Reference" "MX19" (at 132.08 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 132.9632 91.44 0)
@@ -1722,7 +1704,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX20") (unit 1)
+          (reference "MX19") (unit 1)
         )
       )
     )
@@ -1731,7 +1713,7 @@
   (symbol (lib_id "Device:D_Small") (at 86.36 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17c6c275-d5cb-4b32-b824-3ff7df2a90c2)
-    (property "Reference" "D2" (at 83.82 82.55 0)
+    (property "Reference" "D5" (at 83.82 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 83.82 83.82 0)
@@ -1754,7 +1736,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D2") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1763,7 +1745,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 201.93 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17cba8c6-4cd4-42a2-a439-69f3bb06c743)
-    (property "Reference" "MX51" (at 201.93 128.27 0)
+    (property "Reference" "MX50" (at 201.93 128.27 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 202.8132 129.54 0)
@@ -1780,7 +1762,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX51") (unit 1)
+          (reference "MX50") (unit 1)
         )
       )
     )
@@ -1789,7 +1771,7 @@
   (symbol (lib_id "Device:D_Small") (at 198.12 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18bfd3ef-0d27-40ac-a7e7-8665949ba529)
-    (property "Reference" "D50" (at 195.58 120.65 0)
+    (property "Reference" "D52" (at 195.58 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 195.58 121.92 0)
@@ -1812,7 +1794,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D50") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
@@ -1821,7 +1803,7 @@
   (symbol (lib_id "Device:D_Small") (at 142.24 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22016eea-294e-461c-a892-71b4f7f435b5)
-    (property "Reference" "D22" (at 139.7 69.85 0)
+    (property "Reference" "D24" (at 139.7 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 139.7 71.12 0)
@@ -1844,7 +1826,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D22") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -1853,7 +1835,7 @@
   (symbol (lib_id "Device:D_Small") (at 86.36 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2343644e-c2bb-4a56-b5f0-a2179a4a3fb2)
-    (property "Reference" "D1" (at 83.82 69.85 0)
+    (property "Reference" "D4" (at 83.82 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 83.82 71.12 0)
@@ -1876,7 +1858,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D1") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1911,7 +1893,7 @@
   (symbol (lib_id "Device:D_Small") (at 114.3 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26dd731c-be69-48e7-be10-ca6beeba093a)
-    (property "Reference" "D13" (at 111.76 82.55 0)
+    (property "Reference" "D16" (at 111.76 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 111.76 83.82 0)
@@ -1934,7 +1916,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D13") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -1943,7 +1925,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.18 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26e97eaf-c7bd-44cc-9f57-c7a9894eb470)
-    (property "Reference" "D34" (at 167.64 69.85 0)
+    (property "Reference" "D36" (at 167.64 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 167.64 71.12 0)
@@ -1966,7 +1948,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D34") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -1975,7 +1957,7 @@
   (symbol (lib_id "Device:D_Small") (at 156.21 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c0dcaa5-d07a-4344-bc9c-272d15b8e5c1)
-    (property "Reference" "D33" (at 153.67 133.35 0)
+    (property "Reference" "D35" (at 153.67 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 153.67 134.62 0)
@@ -1998,7 +1980,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D33") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -2007,7 +1989,7 @@
   (symbol (lib_id "Device:D_Small") (at 142.24 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c842879-2c83-4c0a-94c0-a83e1e407cda)
-    (property "Reference" "D23" (at 139.7 82.55 0)
+    (property "Reference" "D25" (at 139.7 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 139.7 83.82 0)
@@ -2030,7 +2012,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D23") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -2039,7 +2021,7 @@
   (symbol (lib_id "Device:D_Small") (at 198.12 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32c0dac6-cbd0-44c2-87cc-a3e6fc3b7987)
-    (property "Reference" "D51" (at 195.58 133.35 0)
+    (property "Reference" "D53" (at 195.58 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 195.58 134.62 0)
@@ -2062,7 +2044,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D51") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
@@ -2071,7 +2053,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36393587-2cb1-4460-8e43-1f5995a7541c)
-    (property "Reference" "MX40" (at 187.96 64.77 0)
+    (property "Reference" "MX39" (at 187.96 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 188.8432 66.04 0)
@@ -2088,7 +2070,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX40") (unit 1)
+          (reference "MX39") (unit 1)
         )
       )
     )
@@ -2097,7 +2079,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 160.02 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 366eebe3-7700-4d54-b1a2-b85b42de6b23)
-    (property "Reference" "MX28" (at 160.02 64.77 0)
+    (property "Reference" "MX27" (at 160.02 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 160.9032 66.04 0)
@@ -2114,7 +2096,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX28") (unit 1)
+          (reference "MX27") (unit 1)
         )
       )
     )
@@ -2123,7 +2105,7 @@
   (symbol (lib_id "Device:D_Small") (at 198.12 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f9b972-8333-4192-90f5-8001315d18db)
-    (property "Reference" "D48" (at 195.58 95.25 0)
+    (property "Reference" "D50" (at 195.58 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 195.58 96.52 0)
@@ -2146,7 +2128,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D48") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -2155,7 +2137,7 @@
   (symbol (lib_id "Device:D_Small") (at 128.27 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39111b05-21a6-4971-9bc4-4c13bc5fbf96)
-    (property "Reference" "D19" (at 125.73 82.55 0)
+    (property "Reference" "D21" (at 125.73 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 125.73 83.82 0)
@@ -2178,7 +2160,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D19") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -2187,7 +2169,7 @@
   (symbol (lib_id "Device:D_Small") (at 156.21 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cdd518b-2001-4156-a5fc-ce737ebb2597)
-    (property "Reference" "D28" (at 153.67 69.85 0)
+    (property "Reference" "D30" (at 153.67 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 153.67 71.12 0)
@@ -2210,7 +2192,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D28") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -2219,7 +2201,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.18 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f1a9561-5c20-4860-bb94-7c6c5d6f62db)
-    (property "Reference" "D35" (at 167.64 82.55 0)
+    (property "Reference" "D37" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 167.64 83.82 0)
@@ -2242,7 +2224,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D35") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -2251,7 +2233,7 @@
   (symbol (lib_id "Device:D_Small") (at 184.15 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42a57307-13c3-4704-86a5-3b4ada287fa9)
-    (property "Reference" "D44" (at 181.61 120.65 0)
+    (property "Reference" "D46" (at 181.61 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 181.61 121.92 0)
@@ -2274,7 +2256,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D44") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -2283,7 +2265,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42a57707-a85d-467d-b3c7-d2130f392808)
-    (property "Reference" "MX41" (at 187.96 77.47 0)
+    (property "Reference" "MX40" (at 187.96 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 188.8432 78.74 0)
@@ -2300,7 +2282,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX41") (unit 1)
+          (reference "MX40") (unit 1)
         )
       )
     )
@@ -2309,7 +2291,7 @@
   (symbol (lib_id "Device:D_Small") (at 198.12 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44974a53-f7a2-4452-94c6-37e188b63c63)
-    (property "Reference" "D46" (at 195.58 69.85 0)
+    (property "Reference" "D48" (at 195.58 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 195.58 71.12 0)
@@ -2332,7 +2314,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D46") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
@@ -2367,7 +2349,7 @@
   (symbol (lib_id "Device:D_Small") (at 156.21 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52422ad7-c2e0-4122-aabd-6d2607fe32f8)
-    (property "Reference" "D31" (at 153.67 107.95 0)
+    (property "Reference" "D33" (at 153.67 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 153.67 109.22 0)
@@ -2390,7 +2372,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D31") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -2399,7 +2381,7 @@
   (symbol (lib_id "Device:D_Small") (at 184.15 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52436f62-2f1b-4e05-930e-cc8e096215bc)
-    (property "Reference" "D41" (at 181.61 82.55 0)
+    (property "Reference" "D43" (at 181.61 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 181.61 83.82 0)
@@ -2422,7 +2404,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D41") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -2431,7 +2413,7 @@
   (symbol (lib_id "Device:D_Small") (at 184.15 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54ac98cc-6430-44b3-9399-cfb39f1bde5d)
-    (property "Reference" "D45" (at 181.61 133.35 0)
+    (property "Reference" "D47" (at 181.61 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 181.61 134.62 0)
@@ -2454,7 +2436,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D45") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -2463,7 +2445,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.18 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54c759f5-63ab-418e-a449-13c23607b072)
-    (property "Reference" "D36" (at 167.64 95.25 0)
+    (property "Reference" "D38" (at 167.64 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 167.64 96.52 0)
@@ -2486,7 +2468,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D36") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
@@ -2495,7 +2477,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 215.9 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54c7e62f-60bb-4141-986c-43ea15e51cbb)
-    (property "Reference" "MX54" (at 215.9 90.17 0)
+    (property "Reference" "MX53" (at 215.9 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 216.7832 91.44 0)
@@ -2512,7 +2494,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX54") (unit 1)
+          (reference "MX53") (unit 1)
         )
       )
     )
@@ -2521,7 +2503,7 @@
   (symbol (lib_id "Device:D_Small") (at 212.09 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56ceeb90-b051-49a1-8320-cd975da36a76)
-    (property "Reference" "D52" (at 209.55 69.85 0)
+    (property "Reference" "D54" (at 209.55 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 209.55 71.12 0)
@@ -2544,7 +2526,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D52") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -2579,7 +2561,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5865fff3-9260-4be7-9fb8-40d4f8930620)
-    (property "Reference" "MX21" (at 132.08 102.87 0)
+    (property "Reference" "MX20" (at 132.08 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 132.9632 104.14 0)
@@ -2596,7 +2578,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX21") (unit 1)
+          (reference "MX20") (unit 1)
         )
       )
     )
@@ -2605,7 +2587,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 215.9 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c2c9a58-98ad-4a69-a352-7c637c651e4d)
-    (property "Reference" "MX52" (at 215.9 64.77 0)
+    (property "Reference" "MX51" (at 215.9 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 216.7832 66.04 0)
@@ -2622,7 +2604,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX52") (unit 1)
+          (reference "MX51") (unit 1)
         )
       )
     )
@@ -2631,7 +2613,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 229.87 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64203f51-9b9d-46e0-a853-d5a72d390656)
-    (property "Reference" "MX57" (at 229.87 64.77 0)
+    (property "Reference" "MX56" (at 229.87 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 230.7532 66.04 0)
@@ -2648,7 +2630,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX57") (unit 1)
+          (reference "MX56") (unit 1)
         )
       )
     )
@@ -2683,7 +2665,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 173.99 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 649be4a0-c49c-4de0-bd15-174f60e3ddb7)
-    (property "Reference" "MX35" (at 173.99 77.47 0)
+    (property "Reference" "MX34" (at 173.99 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 174.8732 78.74 0)
@@ -2700,7 +2682,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX35") (unit 1)
+          (reference "MX34") (unit 1)
         )
       )
     )
@@ -2709,7 +2691,7 @@
   (symbol (lib_id "Device:D_Small") (at 184.15 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68988116-e148-4c2f-95a2-7862085c842b)
-    (property "Reference" "D43" (at 181.61 107.95 0)
+    (property "Reference" "D45" (at 181.61 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 181.61 109.22 0)
@@ -2732,7 +2714,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D43") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -2741,7 +2723,7 @@
   (symbol (lib_id "Device:D_Small") (at 114.3 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7008a182-92ef-4ce2-97e8-bcbac4bd7519)
-    (property "Reference" "D17" (at 111.76 133.35 0)
+    (property "Reference" "D20" (at 111.76 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 111.76 134.62 0)
@@ -2764,7 +2746,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D17") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -2773,7 +2755,7 @@
   (symbol (lib_id "Device:D_Small") (at 142.24 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72ddb78c-a0b4-4422-932e-8383f0704140)
-    (property "Reference" "D26" (at 139.7 120.65 0)
+    (property "Reference" "D28" (at 139.7 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 139.7 121.92 0)
@@ -2796,7 +2778,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D26") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -2805,7 +2787,7 @@
   (symbol (lib_id "Device:D_Small") (at 114.3 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 730c8f87-afdd-4adb-807b-e9714e5285df)
-    (property "Reference" "D12" (at 111.76 69.85 0)
+    (property "Reference" "D15" (at 111.76 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 111.76 71.12 0)
@@ -2828,33 +2810,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 73607b74-af0e-4cf7-9ef5-85a9f69efb89)
-    (property "Reference" "MX18" (at 132.08 64.77 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "MX-NoLED" (at 132.9632 66.04 0)
-      (effects (font (size 0.508 0.508)))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 116.205 70.485 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 116.205 70.485 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 2fbf1fc7-c85d-456a-a408-7feb8fe8c935))
-    (pin "2" (uuid 150ddf6e-4546-4e67-af28-5f440a5bc261))
-    (instances
-      (project "split-kb"
-        (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX18") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -2863,7 +2819,7 @@
   (symbol (lib_id "Device:D_Small") (at 212.09 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 742cd497-9b7c-4b4c-aa88-b4fb66603e01)
-    (property "Reference" "D54" (at 209.55 95.25 0)
+    (property "Reference" "D56" (at 209.55 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 209.55 96.52 0)
@@ -2886,7 +2842,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D54") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
@@ -2921,7 +2877,7 @@
   (symbol (lib_id "Device:D_Small") (at 86.36 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 750d0fc5-a67b-4004-8049-c038cf25a1eb)
-    (property "Reference" "D3" (at 83.82 95.25 0)
+    (property "Reference" "D6" (at 83.82 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 83.82 96.52 0)
@@ -2944,7 +2900,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D3") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2953,7 +2909,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 173.99 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7585cac4-f23f-4603-bf0b-85628c12e96e)
-    (property "Reference" "MX38" (at 173.99 115.57 0)
+    (property "Reference" "MX37" (at 173.99 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 174.8732 116.84 0)
@@ -2970,7 +2926,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX38") (unit 1)
+          (reference "MX37") (unit 1)
         )
       )
     )
@@ -2979,7 +2935,7 @@
   (symbol (lib_id "Device:D_Small") (at 156.21 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79d14c98-7f83-4e34-bc09-f98f6b4deef5)
-    (property "Reference" "D32" (at 153.67 120.65 0)
+    (property "Reference" "D34" (at 153.67 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 153.67 121.92 0)
@@ -3002,7 +2958,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D32") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
@@ -3011,7 +2967,7 @@
   (symbol (lib_id "Device:D_Small") (at 156.21 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a7102b9-ac46-444c-8494-1ca6125b75c8)
-    (property "Reference" "D30" (at 153.67 95.25 0)
+    (property "Reference" "D32" (at 153.67 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 153.67 96.52 0)
@@ -3034,7 +2990,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D30") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -3043,7 +2999,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 229.87 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cd4f667-4652-404a-91d5-9893b9d6198c)
-    (property "Reference" "MX58" (at 229.87 77.47 0)
+    (property "Reference" "MX57" (at 229.87 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 230.7532 78.74 0)
@@ -3060,7 +3016,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX58") (unit 1)
+          (reference "MX57") (unit 1)
         )
       )
     )
@@ -3069,7 +3025,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ebee5b1-5e05-42b5-8719-054555dc6fcd)
-    (property "Reference" "MX19" (at 132.08 77.47 0)
+    (property "Reference" "MX18" (at 132.08 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 132.9632 78.74 0)
@@ -3086,7 +3042,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX19") (unit 1)
+          (reference "MX18") (unit 1)
         )
       )
     )
@@ -3095,7 +3051,7 @@
   (symbol (lib_id "Device:D_Small") (at 226.06 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f9e4d9b-87c1-4bd4-a0d8-832af80f539e)
-    (property "Reference" "D57" (at 223.52 69.85 0)
+    (property "Reference" "D59" (at 223.52 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 223.52 71.12 0)
@@ -3118,7 +3074,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D57") (unit 1)
+          (reference "D59") (unit 1)
         )
       )
     )
@@ -3127,7 +3083,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 201.93 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 815876b2-2ce6-4c03-be99-32f6f8667dc8)
-    (property "Reference" "MX50" (at 201.93 115.57 0)
+    (property "Reference" "MX49" (at 201.93 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 202.8132 116.84 0)
@@ -3144,7 +3100,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX50") (unit 1)
+          (reference "MX49") (unit 1)
         )
       )
     )
@@ -3153,7 +3109,7 @@
   (symbol (lib_id "Device:D_Small") (at 212.09 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 848c0b8a-e0d2-487b-b658-e9ddb38f2fd6)
-    (property "Reference" "D56" (at 209.55 120.65 0)
+    (property "Reference" "D58" (at 209.55 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 209.55 121.92 0)
@@ -3176,7 +3132,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D56") (unit 1)
+          (reference "D58") (unit 1)
         )
       )
     )
@@ -3185,7 +3141,7 @@
   (symbol (lib_id "Device:D_Small") (at 128.27 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8512af3f-6418-43f9-b134-c47bc3ba0883)
-    (property "Reference" "D20" (at 125.73 95.25 0)
+    (property "Reference" "D22" (at 125.73 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 125.73 96.52 0)
@@ -3208,7 +3164,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D20") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -3217,7 +3173,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 160.02 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8734264b-7366-4d86-a652-aa597945e614)
-    (property "Reference" "MX30" (at 160.02 90.17 0)
+    (property "Reference" "MX29" (at 160.02 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 160.9032 91.44 0)
@@ -3234,7 +3190,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX30") (unit 1)
+          (reference "MX29") (unit 1)
         )
       )
     )
@@ -3243,7 +3199,7 @@
   (symbol (lib_id "Device:D_Small") (at 100.33 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 880713ca-ca61-4731-b151-bc12ec4129ca)
-    (property "Reference" "D8" (at 97.79 82.55 0)
+    (property "Reference" "D11" (at 97.79 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 97.79 83.82 0)
@@ -3266,7 +3222,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D8") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -3275,7 +3231,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 201.93 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88b3e2b9-9538-420b-87db-8d022e699520)
-    (property "Reference" "MX46" (at 201.93 64.77 0)
+    (property "Reference" "MX45" (at 201.93 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 202.8132 66.04 0)
@@ -3292,7 +3248,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX46") (unit 1)
+          (reference "MX45") (unit 1)
         )
       )
     )
@@ -3301,7 +3257,7 @@
   (symbol (lib_id "Device:D_Small") (at 142.24 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c6d1a0b-a5f5-46e9-86e1-be42cffb1d36)
-    (property "Reference" "D24" (at 139.7 95.25 0)
+    (property "Reference" "D26" (at 139.7 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 139.7 96.52 0)
@@ -3324,39 +3280,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Small") (at 128.27 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8cc3040e-5562-470b-9547-38d96f942867)
-    (property "Reference" "D18" (at 125.73 69.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D_Small" (at 125.73 71.12 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 128.27 73.66 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 73.66 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 128.27 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 128.27 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 50ae33d3-52c2-46b6-bbc3-82a90b3c3408))
-    (pin "2" (uuid f3c67318-2300-4fd6-b6e1-1d144ce37dd4))
-    (instances
-      (project "split-kb"
-        (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D18") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -3365,7 +3289,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 160.02 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e871e83-a080-4100-a96c-15f13e15ccaf)
-    (property "Reference" "MX29" (at 160.02 77.47 0)
+    (property "Reference" "MX28" (at 160.02 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 160.9032 78.74 0)
@@ -3382,7 +3306,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX29") (unit 1)
+          (reference "MX28") (unit 1)
         )
       )
     )
@@ -3391,7 +3315,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 146.05 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 910f4b6b-3696-4596-ba72-53e4869eb0fd)
-    (property "Reference" "MX23" (at 146.05 77.47 0)
+    (property "Reference" "MX22" (at 146.05 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 146.9332 78.74 0)
@@ -3408,7 +3332,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX23") (unit 1)
+          (reference "MX22") (unit 1)
         )
       )
     )
@@ -3417,7 +3341,7 @@
   (symbol (lib_id "Device:D_Small") (at 184.15 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 913a9971-2bf4-4836-9bf2-8ecaae323c16)
-    (property "Reference" "D40" (at 181.61 69.85 0)
+    (property "Reference" "D42" (at 181.61 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 181.61 71.12 0)
@@ -3440,7 +3364,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D40") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
     )
@@ -3449,7 +3373,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92e506af-a277-4fc0-8eae-98628066e0a5)
-    (property "Reference" "MX44" (at 187.96 115.57 0)
+    (property "Reference" "MX43" (at 187.96 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 188.8432 116.84 0)
@@ -3466,7 +3390,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX44") (unit 1)
+          (reference "MX43") (unit 1)
         )
       )
     )
@@ -3475,7 +3399,7 @@
   (symbol (lib_id "Device:D_Small") (at 114.3 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 959f39ae-c9a8-45f4-bbc9-cc7c55e2206e)
-    (property "Reference" "D15" (at 111.76 107.95 0)
+    (property "Reference" "D18" (at 111.76 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 111.76 109.22 0)
@@ -3498,7 +3422,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D15") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -3507,7 +3431,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 146.05 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c8507e7-c341-4319-9678-d3785a5914e8)
-    (property "Reference" "MX27" (at 146.05 128.27 0)
+    (property "Reference" "MX26" (at 146.05 128.27 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 146.9332 129.54 0)
@@ -3524,7 +3448,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX27") (unit 1)
+          (reference "MX26") (unit 1)
         )
       )
     )
@@ -3533,7 +3457,7 @@
   (symbol (lib_id "Device:D_Small") (at 100.33 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ebac15f-934f-4ee7-9392-0c840b61705b)
-    (property "Reference" "D11" (at 97.79 120.65 0)
+    (property "Reference" "D14" (at 97.79 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 97.79 121.92 0)
@@ -3556,7 +3480,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D11") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -3591,7 +3515,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 173.99 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a10b284d-7a65-4e11-85d3-7d59a0fcbade)
-    (property "Reference" "MX36" (at 173.99 90.17 0)
+    (property "Reference" "MX35" (at 173.99 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 174.8732 91.44 0)
@@ -3608,7 +3532,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX36") (unit 1)
+          (reference "MX35") (unit 1)
         )
       )
     )
@@ -3617,7 +3541,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 201.93 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4bfd026-e4c8-438d-9cfe-3b0167897cd0)
-    (property "Reference" "MX47" (at 201.93 77.47 0)
+    (property "Reference" "MX46" (at 201.93 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 202.8132 78.74 0)
@@ -3634,7 +3558,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX47") (unit 1)
+          (reference "MX46") (unit 1)
         )
       )
     )
@@ -3643,7 +3567,7 @@
   (symbol (lib_id "Device:D_Small") (at 86.36 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5f33aae-469e-4e1f-9ae2-b9e765342269)
-    (property "Reference" "D4" (at 83.82 107.95 0)
+    (property "Reference" "D7" (at 83.82 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 83.82 109.22 0)
@@ -3666,7 +3590,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D4") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3675,7 +3599,7 @@
   (symbol (lib_id "Device:D_Small") (at 198.12 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8bc0547-ace7-4fed-ae30-95b4330cd3bf)
-    (property "Reference" "D49" (at 195.58 107.95 0)
+    (property "Reference" "D51" (at 195.58 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 195.58 109.22 0)
@@ -3698,7 +3622,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D49") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
@@ -3707,7 +3631,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 215.9 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9de0741-b8a1-4c89-ae3e-212c5bc08446)
-    (property "Reference" "MX56" (at 215.9 115.57 0)
+    (property "Reference" "MX55" (at 215.9 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 216.7832 116.84 0)
@@ -3724,7 +3648,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX56") (unit 1)
+          (reference "MX55") (unit 1)
         )
       )
     )
@@ -3733,7 +3657,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 160.02 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac2a7313-086e-4f45-87ab-5d3d15d51d09)
-    (property "Reference" "MX33" (at 160.02 128.27 0)
+    (property "Reference" "MX32" (at 160.02 128.27 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 160.9032 129.54 0)
@@ -3750,7 +3674,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX33") (unit 1)
+          (reference "MX32") (unit 1)
         )
       )
     )
@@ -3759,7 +3683,7 @@
   (symbol (lib_id "Device:D_Small") (at 170.18 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1609b0a-27f5-4bd4-bfb7-ab8b8d93e85e)
-    (property "Reference" "D38" (at 167.64 120.65 0)
+    (property "Reference" "D40" (at 167.64 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 167.64 121.92 0)
@@ -3782,7 +3706,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D38") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -3791,7 +3715,7 @@
   (symbol (lib_id "Device:D_Small") (at 156.21 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b390b237-3efc-4cc7-b2ec-7d20d59b5f9b)
-    (property "Reference" "D29" (at 153.67 82.55 0)
+    (property "Reference" "D31" (at 153.67 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 153.67 83.82 0)
@@ -3814,7 +3738,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D29") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -3823,7 +3747,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 215.9 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b408024f-508b-49bb-bb1d-fecd3d3e199a)
-    (property "Reference" "MX53" (at 215.9 77.47 0)
+    (property "Reference" "MX52" (at 215.9 77.47 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 216.7832 78.74 0)
@@ -3840,7 +3764,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX53") (unit 1)
+          (reference "MX52") (unit 1)
         )
       )
     )
@@ -3849,7 +3773,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 215.9 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4161010-f7da-481c-87ee-1bcb0d271f9a)
-    (property "Reference" "MX55" (at 215.9 102.87 0)
+    (property "Reference" "MX54" (at 215.9 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 216.7832 104.14 0)
@@ -3866,7 +3790,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX55") (unit 1)
+          (reference "MX54") (unit 1)
         )
       )
     )
@@ -3875,7 +3799,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4476e21-e283-4c73-bcd4-9199e27f47e9)
-    (property "Reference" "MX42" (at 187.96 90.17 0)
+    (property "Reference" "MX41" (at 187.96 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 188.8432 91.44 0)
@@ -3892,7 +3816,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX42") (unit 1)
+          (reference "MX41") (unit 1)
         )
       )
     )
@@ -3927,7 +3851,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 173.99 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bab4e02b-f1e2-4bf9-8820-86100c589ce2)
-    (property "Reference" "MX39" (at 173.99 128.27 0)
+    (property "Reference" "MX38" (at 173.99 128.27 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 174.8732 129.54 0)
@@ -3944,7 +3868,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX39") (unit 1)
+          (reference "MX38") (unit 1)
         )
       )
     )
@@ -3953,7 +3877,7 @@
   (symbol (lib_id "Device:D_Small") (at 100.33 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c192a0bc-428b-4d0f-b8dc-a4438ca33aae)
-    (property "Reference" "D10" (at 97.79 107.95 0)
+    (property "Reference" "D13" (at 97.79 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 97.79 109.22 0)
@@ -3976,7 +3900,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D10") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -3985,7 +3909,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 201.93 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c78c4961-319c-4ba2-a570-8ebe24c4bc00)
-    (property "Reference" "MX48" (at 201.93 90.17 0)
+    (property "Reference" "MX47" (at 201.93 90.17 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 202.8132 91.44 0)
@@ -4002,7 +3926,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX48") (unit 1)
+          (reference "MX47") (unit 1)
         )
       )
     )
@@ -4037,7 +3961,7 @@
   (symbol (lib_id "Device:D_Small") (at 100.33 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc3a006c-6ca5-435e-86ce-265db718dc72)
-    (property "Reference" "D9" (at 97.79 95.25 0)
+    (property "Reference" "D12" (at 97.79 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 97.79 96.52 0)
@@ -4060,7 +3984,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D9") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -4069,7 +3993,7 @@
   (symbol (lib_id "Device:D_Small") (at 86.36 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cce77346-085b-4219-8843-fc0c17a4ac9c)
-    (property "Reference" "D6" (at 83.82 133.35 0)
+    (property "Reference" "D9" (at 83.82 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 83.82 134.62 0)
@@ -4092,7 +4016,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D6") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -4127,7 +4051,7 @@
   (symbol (lib_id "Device:D_Small") (at 212.09 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0610604-c3d8-4f3b-9d60-762f921ce3a7)
-    (property "Reference" "D55" (at 209.55 107.95 0)
+    (property "Reference" "D57" (at 209.55 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 209.55 109.22 0)
@@ -4150,7 +4074,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D55") (unit 1)
+          (reference "D57") (unit 1)
         )
       )
     )
@@ -4159,7 +4083,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 173.99 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0650a51-bb2c-4f29-8b03-0bd557859692)
-    (property "Reference" "MX37" (at 173.99 102.87 0)
+    (property "Reference" "MX36" (at 173.99 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 174.8732 104.14 0)
@@ -4176,7 +4100,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX37") (unit 1)
+          (reference "MX36") (unit 1)
         )
       )
     )
@@ -4211,7 +4135,7 @@
   (symbol (lib_id "Device:D_Small") (at 198.12 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5382a3b-35c8-472d-a8f0-6b2bb700d206)
-    (property "Reference" "D47" (at 195.58 82.55 0)
+    (property "Reference" "D49" (at 195.58 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 195.58 83.82 0)
@@ -4234,7 +4158,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D47") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -4243,7 +4167,7 @@
   (symbol (lib_id "Device:D_Small") (at 184.15 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8a79074-d32e-4f5a-b8cb-6003b3ba600a)
-    (property "Reference" "D42" (at 181.61 95.25 0)
+    (property "Reference" "D44" (at 181.61 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 181.61 96.52 0)
@@ -4266,7 +4190,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D42") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
@@ -4275,7 +4199,7 @@
   (symbol (lib_id "Device:D_Small") (at 142.24 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d96e3953-fc7c-4097-a3b9-6a03da2d33f2)
-    (property "Reference" "D25" (at 139.7 107.95 0)
+    (property "Reference" "D27" (at 139.7 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 139.7 109.22 0)
@@ -4298,7 +4222,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D25") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -4307,7 +4231,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 146.05 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e09791dd-0a21-49d1-aacd-3867f0b12abb)
-    (property "Reference" "MX25" (at 146.05 102.87 0)
+    (property "Reference" "MX24" (at 146.05 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 146.9332 104.14 0)
@@ -4324,7 +4248,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX25") (unit 1)
+          (reference "MX24") (unit 1)
         )
       )
     )
@@ -4333,7 +4257,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 146.05 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1d7e7d5-0de1-4ed7-82ed-4cd09529dbf9)
-    (property "Reference" "MX22" (at 146.05 64.77 0)
+    (property "Reference" "MX21" (at 146.05 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 146.9332 66.04 0)
@@ -4350,7 +4274,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX22") (unit 1)
+          (reference "MX21") (unit 1)
         )
       )
     )
@@ -4359,7 +4283,7 @@
   (symbol (lib_id "Device:D_Small") (at 100.33 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e56aacb8-99aa-466a-844f-37980c77daaa)
-    (property "Reference" "D7" (at 97.79 69.85 0)
+    (property "Reference" "D10" (at 97.79 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 97.79 71.12 0)
@@ -4382,7 +4306,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D7") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -4391,7 +4315,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 173.99 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9874af9-3a88-48f4-a389-213e74a007e7)
-    (property "Reference" "MX34" (at 173.99 64.77 0)
+    (property "Reference" "MX33" (at 173.99 64.77 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 174.8732 66.04 0)
@@ -4408,7 +4332,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX34") (unit 1)
+          (reference "MX33") (unit 1)
         )
       )
     )
@@ -4417,7 +4341,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 160.02 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebcb3fff-be87-42db-ac7b-c53abd3e40e0)
-    (property "Reference" "MX31" (at 160.02 102.87 0)
+    (property "Reference" "MX30" (at 160.02 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 160.9032 104.14 0)
@@ -4434,7 +4358,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX31") (unit 1)
+          (reference "MX30") (unit 1)
         )
       )
     )
@@ -4443,7 +4367,7 @@
   (symbol (lib_id "Device:D_Small") (at 226.06 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec12b6de-f0e4-43c6-bcec-2eb9f0277697)
-    (property "Reference" "D58" (at 223.52 82.55 0)
+    (property "Reference" "D60" (at 223.52 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 223.52 83.82 0)
@@ -4466,7 +4390,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D58") (unit 1)
+          (reference "D60") (unit 1)
         )
       )
     )
@@ -4475,7 +4399,7 @@
   (symbol (lib_id "Device:D_Small") (at 86.36 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2134640-dc04-48ca-9a37-43e7bc1c3346)
-    (property "Reference" "D5" (at 83.82 120.65 0)
+    (property "Reference" "D8" (at 83.82 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 83.82 121.92 0)
@@ -4498,7 +4422,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D5") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -4533,7 +4457,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 201.93 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4236105-0428-4d4a-8adf-5c1ae2b4b764)
-    (property "Reference" "MX49" (at 201.93 102.87 0)
+    (property "Reference" "MX48" (at 201.93 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 202.8132 104.14 0)
@@ -4550,7 +4474,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX49") (unit 1)
+          (reference "MX48") (unit 1)
         )
       )
     )
@@ -4611,7 +4535,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 160.02 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd462fa3-7a65-4af9-bc91-5ca011de8145)
-    (property "Reference" "MX32" (at 160.02 115.57 0)
+    (property "Reference" "MX31" (at 160.02 115.57 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MX-NoLED" (at 160.9032 116.84 0)
@@ -4628,7 +4552,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "MX32") (unit 1)
+          (reference "MX31") (unit 1)
         )
       )
     )
@@ -4637,7 +4561,7 @@
   (symbol (lib_id "Device:D_Small") (at 114.3 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdebd4ec-341e-458d-b831-a763ce890999)
-    (property "Reference" "D14" (at 111.76 95.25 0)
+    (property "Reference" "D17" (at 111.76 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Small" (at 111.76 96.52 0)
@@ -4660,7 +4584,7 @@
     (instances
       (project "split-kb"
         (path "/7b9ddcb2-2f15-4fb3-b313-e71bd76b6804/ff14d70b-26f1-4b29-bf90-0efb8f7a2fda/467b8311-31fa-4eeb-b2ec-3971f30c21ad"
-          (reference "D14") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
