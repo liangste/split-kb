@@ -8,6 +8,14 @@
   )
 
 
+  (text_box "total 105 keys\nleft 58 (10 * 6 matrix)\nright 47 (10 * 5 matrix)"
+    (at 135.89 110.49 0) (size 26.67 10.16)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 4ccfdd31-0abf-432d-bd83-c91bd8417116)
+  )
+
   (sheet (at 158.75 55.88) (size 66.04 43.18) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

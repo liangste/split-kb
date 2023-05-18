@@ -467,7 +467,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "split-kb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -518,14 +518,6 @@
     [
       "e917f1d1-4265-465c-ad31-3b1a6bf45a08",
       "right_pcb"
-    ],
-    [
-      "467b8311-31fa-4eeb-b2ec-3971f30c21ad",
-      "left_switches"
-    ],
-    [
-      "57865109-ca70-4661-af52-65b42b5f38d4",
-      "right_switches"
     ]
   ],
   "text_variables": {}
